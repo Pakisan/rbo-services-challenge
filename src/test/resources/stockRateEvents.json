@@ -1,0 +1,35 @@
+[
+  {
+    "id": "591a3c32-d5a3-43a3-90a4-09cdeb3db64a",
+    "createdAt": 1665138830695,
+    "type": "STOCKS",
+    "payload": {
+      "index": "NIFTY 50",
+      "dateTime": 1665138830695,
+      "price": 17319.3,
+      "change": 45.0
+    }
+  },
+  {
+    "id": "16ccb10f-0bd7-4079-9446-80fc8f154d23",
+    "createdAt": 1665138830795,
+    "type": "STOCKS",
+    "payload": {
+      "index": "NIFTY 50",
+      "dateTime": 1665138830795,
+      "price": 17319.3,
+      "change": 45.0
+    }
+  },
+  {
+    "id": "14e59256-6f8b-41f8-ae98-1b190b1d976d",
+    "createdAt": 1665138830995,
+    "type": "STOCKS",
+    "payload": {
+      "index": "NIFTY 50",
+      "dateTime": 1665138830995,
+      "price": 17319.3,
+      "change": 45.0
+    }
+  }
+]

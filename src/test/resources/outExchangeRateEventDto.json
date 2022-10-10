@@ -1,0 +1,11 @@
+{
+  "id": "faa0ef65-ed8b-434b-b7f0-288e447f30a3",
+  "createdAt": "2022-10-07T10:33:50.695+00:00",
+  "payload": {
+    "bank": "Artsakhbank",
+    "dateTime": "2022-10-07T10:33:50.695+00:00",
+    "currency": "USD",
+    "buy": 406,
+    "sell": 416
+  }
+}

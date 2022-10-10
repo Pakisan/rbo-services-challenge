@@ -1,0 +1,12 @@
+{
+  "id": "faa0ef65-ed8b-434b-b7f0-288e447f30a3",
+  "createdAt": 1665138830695,
+  "type": "EXCHANGE_RATES",
+  "payload": {
+    "bank": "Artsakhbank",
+    "currency": "USD",
+    "dateTime": 1665138830695,
+    "buy": 406,
+    "sell": 416
+  }
+}

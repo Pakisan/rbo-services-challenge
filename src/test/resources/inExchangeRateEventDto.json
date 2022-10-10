@@ -1,0 +1,10 @@
+{
+  "type": "EXCHANGE_RATES",
+  "payload": {
+    "bank": "Artsakhbank",
+    "currency": "USD",
+    "dateTime": 1665138830695,
+    "buy": 406,
+    "sell": 416
+  }
+}

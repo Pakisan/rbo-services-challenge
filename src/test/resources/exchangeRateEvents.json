@@ -1,0 +1,38 @@
+[
+  {
+    "id": "eca10697-f52f-48e2-9ebe-22bc68256078",
+    "createdAt": 1665138830695,
+    "type": "EXCHANGE_RATES",
+    "payload": {
+      "bank": "Artsakhbank",
+      "currency": "USD",
+      "dateTime": 1665138830695,
+      "buy": 406,
+      "sell": 416
+    }
+  },
+  {
+    "id": "b586d688-d6ec-43ab-adbf-6998e1719a5d",
+    "createdAt": 1665138830795,
+    "type": "EXCHANGE_RATES",
+    "payload": {
+      "bank": "Artsakhbank",
+      "currency": "USD",
+      "dateTime": 1665138830795,
+      "buy": 406,
+      "sell": 416
+    }
+  },
+  {
+    "id": "d9950e61-909e-4001-b48b-d83af694ce50",
+    "createdAt": 1665138830995,
+    "type": "EXCHANGE_RATES",
+    "payload": {
+      "bank": "Artsakhbank",
+      "currency": "USD",
+      "dateTime": 1665138830995,
+      "buy": 406,
+      "sell": 416
+    }
+  }
+]

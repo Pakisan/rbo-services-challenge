@@ -1,0 +1,35 @@
+[
+  {
+    "id": "eca10697-f52f-48e2-9ebe-22bc68256078",
+    "createdAt": "2022-10-07T10:33:50.695+00:00",
+    "payload": {
+      "bank": "Artsakhbank",
+      "dateTime": "2022-10-07T10:33:50.695+00:00",
+      "currency": "USD",
+      "buy": 406,
+      "sell": 416
+    }
+  },
+  {
+    "id": "b586d688-d6ec-43ab-adbf-6998e1719a5d",
+    "createdAt": "2022-10-07T10:33:50.795+00:00",
+    "payload": {
+      "bank": "Artsakhbank",
+      "dateTime": "2022-10-07T10:33:50.795+00:00",
+      "currency": "USD",
+      "buy": 406,
+      "sell": 416
+    }
+  },
+  {
+    "id": "d9950e61-909e-4001-b48b-d83af694ce50",
+    "createdAt": "2022-10-07T10:33:50.995+00:00",
+    "payload": {
+      "bank": "Artsakhbank",
+      "dateTime": "2022-10-07T10:33:50.995+00:00",
+      "currency": "USD",
+      "buy": 406,
+      "sell": 416
+    }
+  }
+]

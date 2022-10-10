@@ -1,0 +1,9 @@
+{
+  "type": "STOCKS",
+  "payload": {
+    "index": "NIFTY 50",
+    "dateTime": 1665138830695,
+    "price": 17319.3,
+    "change": 45.0
+  }
+}
