@@ -1,1 +1,7 @@
 databaseChangeLog:
+  - include:
+      file: 1_events-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: 2_events-trigger.sql
+      relativeToChangelogFile: true

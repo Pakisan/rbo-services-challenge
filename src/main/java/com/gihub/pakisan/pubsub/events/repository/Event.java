@@ -3,10 +3,13 @@ package com.gihub.pakisan.pubsub.events.repository;
 import com.fasterxml.jackson.annotation.*;
 import com.gihub.pakisan.pubsub.exchangerates.ExchangeRate;
 import com.gihub.pakisan.pubsub.stocks.StockRate;
+import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Type;
+import org.hibernate.annotations.TypeDef;
+import org.hibernate.annotations.TypeDefs;
 
 import javax.annotation.Nonnull;
 import javax.persistence.*;
@@ -17,11 +20,10 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity(name = "event")
-@Table(name = "events")
-//@TypeDef(
-//        name = "json",
-//        typeClass = JsonType.class
-//)
+@TypeDefs({
+        @TypeDef(name = "json", typeClass = JsonBinaryType.class)
+})
+@Table(name = "events", schema = "events")
 @JsonClassDescription("Event")
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Event {
@@ -48,7 +50,7 @@ public class Event {
     private EventType type;
 
     @Nonnull
-    @Type(type = "jsonb")
+    @Type(type = "json")
     @Column(columnDefinition = "jsonb")
     @JsonTypeInfo(
             use = JsonTypeInfo.Id.NAME,
