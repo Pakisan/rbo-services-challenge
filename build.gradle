@@ -22,6 +22,8 @@ repositories {
 ext {
     set('snippetsDir', file("build/generated-snippets"))
     set('testcontainersVersion', "1.17.4")
+    // Testcontainers
+    set('springCloudVersion', "2021.0.4")
 }
 
 dependencies {
@@ -40,11 +42,16 @@ dependencies {
     testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
     testImplementation 'org.testcontainers:junit-jupiter'
     testImplementation 'com.impossibl.pgjdbc-ng:pgjdbc-ng-all:0.8.9'
+    // Testcontainers
+    testImplementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+    testImplementation 'com.playtika.testcontainers:embedded-postgresql:2.2.9'
 }
 
 dependencyManagement {
     imports {
         mavenBom "org.testcontainers:testcontainers-bom:${testcontainersVersion}"
+        // Testcontainers
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
     }
 }
 
