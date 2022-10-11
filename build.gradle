@@ -32,7 +32,7 @@ dependencies {
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
     implementation 'com.vladmihalcea:hibernate-types-55:2.19.2'
     runtimeOnly 'org.postgresql:postgresql'
-    compileOnly 'com.impossibl.pgjdbc-ng:pgjdbc-ng-all:0.8.9'
+    implementation 'com.impossibl.pgjdbc-ng:pgjdbc-ng-all:0.8.9'
     compileOnly 'org.projectlombok:lombok'
     compileOnly 'org.jetbrains:annotations:17.0.0'
     annotationProcessor 'org.projectlombok:lombok'
